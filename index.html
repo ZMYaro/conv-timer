@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<style>
+			html {
+				color-scheme: dark light;
+			}
+			body {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 8px;
+				
+				font-family: system-ui, sans-serif;
+			}
+			button {
+				padding: 0.25em 0.5em;
+				font: inherit;
+				cursor: pointer;
+			}
+			#timers {
+				display: grid;
+				grid-template-columns: repeat(5, auto);
+			}
+		</style>
+		<script type="module" src="timers.js"></script>
+	</head>
+	<body>
+		<div id="timers">
+		</div>
+		<button id="new-timer-button">➕ New</button>
+		<button id="reset-button">↩ Reset</button>
+	</body>
+</html>
