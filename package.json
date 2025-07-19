@@ -1,0 +1,16 @@
+{
+	"name": "conv-timer",
+	"version": "1.0.0",
+	"description": "Timer to track how many times everyone in a conversation has spoken and for how long.",
+	"author": "Zachary Yaro",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ZMYaro/conv-timer.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ZMYaro/conv-timer/issues"
+	},
+	"dependencies": {
+		"lit": "^3.3.1"
+	}
+}
